@@ -1,0 +1,36 @@
+[
+  {
+    "id": "q001",
+    "query": "How do I perform a factory reset on the Model X device?",
+    "expected_keywords_in_answer": ["factory reset", "Model X", "hold button", "10 seconds", "power on"],
+    "expected_sources": [
+      {"filename": "user_manual_model_x.pdf", "page_number_range": [25, 26]}
+    ]
+  },
+  {
+    "id": "q002",
+    "query": "What is the recommended operating temperature for the Sensor Array v2?",
+    "expected_keywords_in_answer": ["operating temperature", "Sensor Array v2", "-10°C", "50°C"],
+    "expected_sources": [
+      {"filename": "technical_specifications_sensors.pdf", "page_number_range": [5, 5]}
+    ]
+  },
+  {
+    "id": "q003",
+    "query": "Can you explain the 'Advanced Data Logging' feature and its limitations?",
+    "expected_keywords_in_answer": ["Advanced Data Logging", "stores up to", "10000 records", "overwrite old data", "export CSV"],
+    "expected_sources": [
+      {"filename": "feature_guide_software_v3.pdf", "page_number_range": [12, 14]},
+      {"filename": "api_reference_v3.1.pdf", "page_number_range": [45, 46]}
+    ]
+  }
+]
+{
+  "id": "q004",
+  "query": "What are the safety precautions for using the Model Y in extreme weather conditions?",
+  "expected_keywords_in_answer": ["safety precautions", "Model Y", "extreme weather", "battery performance", "tire pressure"],
+  "expected_sources": [
+    {"filename": "safety_guide_model_y.pdf", "page_number_range": [8, 10]},
+    {"filename": "user_manual_model_y.pdf", "page_number_range": [15, 16]}
+  ]
+}

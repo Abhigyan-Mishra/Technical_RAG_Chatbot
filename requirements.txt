@@ -1,0 +1,11 @@
+streamlit>=1.30.0
+langchain>=0.1.0
+langchain-core>=0.1.50 # Often a sub-dependency, but good to specify for recent features
+langchain-community>=0.0.30 # FAISS and other community components are here
+ollama>=0.1.8 # The ollama python client, still useful for direct ollama lib interaction if needed, but langchain-ollama is for LC integration
+langchain-ollama>=0.1.0 # New package for Ollama integration with LangChain
+PyMuPDF>=1.23.0 # Fitz
+faiss-cpu>=1.7.4
+pydantic>=2.5.0
+# numpy is usually a sub-dependency
+# scikit-learn might be needed for some advanced LangChain components or evaluation tools
